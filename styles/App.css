@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3a0519;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  @media (min-width: 1000px) {
+    overflow-y: hidden;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
