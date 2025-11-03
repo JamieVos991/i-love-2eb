@@ -56,5 +56,17 @@ main {
     height: 50%;
     padding: 20px;
     background-color: #670e2f;
+
+    ul {
+      &.sprint {
+        display: none;
+
+        &.active {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+        }
+      }
+    }
   }
 }
