@@ -9,13 +9,18 @@ footer {
   ul {
     list-style: none;
 
-    a {
-      color: var(--tertiary-kleur);
-      text-decoration: none;
+    li {
+      display: flex;
+      gap: 30px;
 
-      &:hover {
-        transition: 0.2s;
-        color: grey;
+      a {
+        color: var(--tertiary-kleur);
+        text-decoration: none;
+
+        &:hover {
+          transition: 0.2s;
+          color: white;
+        }
       }
     }
   }
