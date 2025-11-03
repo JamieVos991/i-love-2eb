@@ -1,0 +1,22 @@
+footer {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-kleur);
+  width: 100%;
+
+  ul {
+    list-style: none;
+
+    a {
+      color: var(--tertiary-kleur);
+      text-decoration: none;
+
+      &:hover {
+        transition: 0.2s;
+        color: grey;
+      }
+    }
+  }
+}

@@ -6,8 +6,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-kleur: #3a0519;
+  --secundary-kleur: #670e2f;
+  --tertiary-kleur: #ee87ac;
+}
+
 body {
-  background: #3a0519;
+  background: var(--main-kleur);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
   @media (min-width: 1000px) {
@@ -16,8 +22,8 @@ body {
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: pink;
+  text-decoration: underline;
 }
 
 button {

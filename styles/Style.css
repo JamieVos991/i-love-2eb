@@ -34,7 +34,7 @@ main {
 
       &:nth-of-type(2) {
         h2 {
-          color: #ee87ac;
+          color: var(--tertiary-kleur);
           font-weight: 400;
         }
       }
@@ -54,7 +54,12 @@ main {
 
   section:nth-of-type(2) {
     padding: 30px;
-    background-color: #670e2f;
+    background-color: var(--secundary-kleur);
+
+    @media (min-width: 1200px) {
+      width: 60%;
+      overflow-y: auto;
+    }
 
     ul {
       color: white;
