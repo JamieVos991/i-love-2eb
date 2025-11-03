@@ -18,7 +18,7 @@ main {
     ul {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 25px;
       color: white;
     }
 
@@ -58,14 +58,29 @@ main {
     background-color: #670e2f;
 
     ul {
+      color: white;
+      list-style: none;
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
       &.sprint {
         display: none;
 
         &.active {
           display: flex;
           flex-direction: column;
-          gap: 25px;
+          gap: 50px;
         }
+      }
+    }
+
+    li {
+      h4 {
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding-bottom: 5px;
       }
     }
   }
