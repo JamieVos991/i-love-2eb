@@ -21,6 +21,10 @@ body {
   }
 }
 
+a {
+  color: var(--tertiary-kleur);
+}
+
 button {
   background: none;
   color: white;
