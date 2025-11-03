@@ -16,14 +16,9 @@ body {
   background: var(--main-kleur);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
-  @media (min-width: 1000px) {
+  @media (min-width: 1200px) {
     overflow-y: hidden;
   }
-}
-
-a {
-  color: pink;
-  text-decoration: underline;
 }
 
 button {
