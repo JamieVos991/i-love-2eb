@@ -38,11 +38,11 @@ De focus ligt op:
 
 ## ⚙️ Functies
 
-✅ document.querySelectorAll(): : selecteert alle elementen die overeenkomen met een CSS selector.
-✅ forEach(): Voert een functie uit voor elk item in een array.
-✅ addEventListener(): luistert naar een bepaald event (zoals "click") op een element, en voert een functie uit als dat event plaatsvindt.
-✅ dataset: geeft toegang tot alle data attributen van een element.
-✅ classList.remove() en classList.add(): voegt of verwijdert CSS classes van een element.
+- ✅ document.querySelectorAll(): : selecteert alle elementen die overeenkomen met een CSS selector.
+- ✅ forEach(): Voert een functie uit voor elk item in een array.
+- ✅ addEventListener(): luistert naar een bepaald event (zoals "click") op een element, en voert een functie uit als dat event plaatsvindt.
+- ✅ dataset: geeft toegang tot alle data attributen van een element.
+- ✅ classList.remove() en classList.add(): voegt of verwijdert CSS classes van een element.
 
 ---
 
