@@ -208,11 +208,48 @@
           </li>
           <li>
             <h4>Dinsdag 23 september 2025</h4>
-            <p>hey</p>
+            <p>Op dinsdag hebben we weer onze vaste CSS challange dag, waar je je voor kunt aanmelden. Vandaag stond op de planning: gradients. Iets waar ik al wat vanaf weet. Ik heb me daarom niet veel verdiept in de makkelijke dingen, maar meer in de onderdelen waarin ik beter kan worden, zoals: repeat gradients, animaties van gradients en de verschillende properties die je op gradients kunt toepassen. Hieronder wat voorbeelden.</p>
+            <p><code>radial-gradient</code></p>
+            <p>
+              <code>closest-side</code> 
+              de cirkel stopt zodra hij de dichtstbijzijnde kant van de div raakt. Dus de cirkel is vrij klein.
+              <code>closest-corner</code>
+              de cirkel stopt bij de dichtstbijzijnde hoek van de div. De cirkel is iets groter dan bij closest-side.
+              <code>farthest-side</code>
+              de cirkel stopt bij de verste kant van de div. De cirkel is nu groter, omdat hij tot de verste rand gaat.
+              <code>farthest-corner</code>
+              de cirkel stopt bij de verste hoek van de div. Dit is de grootste cirkel die in de div past.
+            </p>
+            <p>
+              <code>(repeating-)conic-gradient</code>
+              Een conic gradient is een CSS gradient die rond een punt draait, alsof je een taart of klok maakt. In plaats van dat de kleuren van het midden naar buiten lopen (zoals bij radial-gradient), lopen de kleuren langs een cirkel rondom het middelpunt.
+            </p>
+            <img src="./assets/images/Sprint_2/conic-gradient.png">
+            <p>Waar ik trots op ben is de laatste opdracht van deze les die ik af heb kunnen maken. Ik wil een paar dingen uitleggen omdat het best complex is. </p>
+            <p>Ik heb een variable gemaakt zodat ik niet overal de waarde 10vmin hoef te herhalen. Ik kan deze later ook overal in 1 keer aanpassen.</p>
+            <p><code>closest-side circle</code> Dit bepaalt de vorm en grootte van de gradient. <code>circle</code> betekent dat het een cirkelvormige gradient is. <code>closest-side</code> zorgt ervoor dat de straal van de cirkel stopt bij de dichtstbijzijnde rand van het element.</p>
+            <p>De gradient maakt afwisselende zwarte en witte ringen:</p><p><code>black calc(100% - var(--cirkel-size)) calc(100% - .5 * var(--cirkel-size))</code> De ring begint bij <code>100% - var(--cirkel-size)</code> en eindigt bij <code>100% - 0.5 * var(--cirkel-size)</code>van de straal.
+              
+              <code>white calc(100% - .5 * var(--cirkel-size)) calc(100% )</code>
+              
+              Dit is de witte ring direct erna.
+              
+              Loopt van <code>100% - 0.5 * var(--cirkel-size)</code> tot 100% van de straal.
+              
+              Door repeating herhaalt dit patroon zich oneindig naar buiten.</p>
+              <p>Nu alleen nog laten animaren, dit heb ik met <code>@keyframes </code>gedaan.</p>
+              <p>Deze <code>@keyframes</code> animatie verandert de achtergrondgrootte van een element: 0% = het begin van de animatie: de achtergrond vult het hele element (100% 100%). 100% = het einde van de animatie: de achtergrond wordt iets groter dan het element, met extra ruimte van <code>2 * var(--cirkel-size)</code> in zowel breedte als hoogte.</p>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="ByjNdqm" data-pen-title="Radial" data-preview="true" data-user="JamieVos991" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+              <span>See the Pen <a href="https://codepen.io/JamieVos991/pen/ByjNdqm">
+          Radial</a> by Jamie (<a href="https://codepen.io/JamieVos991">@JamieVos991</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://public.codepenassets.com/embed/index.js"></script>
           </li>
           <li>
             <h4>Woensdag 24 september 2025</h4>
-            <p>hey</p>
+            <p>Vandaag hebben wij een workshop gehad over prototyping, hoe je een idee kan uit schetsen op verschillende manieren. 1 van de manieren die ik heb geleerd is sitemapping. Dit geeft een gestructureerde overzicht van alle pagina's op een webiste, je schetst dit als een soort van boom met takken.</p>
+            <img src="./assets/images/Sprint_2/sidemap.jpeg">
           </li>
           <li>
             <h4>Donderdag 25 september 2025</h4>
