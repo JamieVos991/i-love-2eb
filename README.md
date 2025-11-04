@@ -8,16 +8,12 @@ Het doel van dit project is om mijn groeiprocess te delen op een moderne manier,
 
 ## 📋 Inhoud
 
-- [Beschrijving](#beschrijving)
-- [Functies](#functies)
-- [Screenshots](#screenshots)
-- [Technologieën](#technologieën)
-- [Installatie & Gebruik](#installatie--gebruik)
-- [Structuur](#structuur)
-- [Architectuur](#architectuur)
-- [Contributie](#contributie)
-- [Licentie](#licentie)
-- [Contact](#contact)
+- [Beschrijving](#-beschrijving)
+- [Functies](#-functies)
+- [Technologieën](#-technologieën)
+- [Licentie](#-licentie)
+- [Contact](#-contact)
+- [Screenshots](#-screenshots)
 
 ---
 
@@ -52,7 +48,19 @@ De focus ligt op:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript)
 
+---
+
+## 🧾 Licentie
+
+Dit project valt onder de **MIT-licentie**.
+
+---
+
+## 📫 Contact
+
+- [Jamie Vos](https://www.linkedin.com/in/jamie-vos-0a0b4a18a/)
+
 ## 🖼️ Screenshots
 
-![alt text](image.png)
-![alt text](image-1.png)
+![Telefoon formaat](image.png)
+![Laptop Formaat](image-1.png)
