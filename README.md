@@ -46,6 +46,12 @@ De focus ligt op:
 
 ---
 
+## 🧰 Technologieën
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript)
+
 ## 🖼️ Screenshots
 
 ![alt text](image.png)
