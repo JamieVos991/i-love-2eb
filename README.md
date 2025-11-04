@@ -62,5 +62,5 @@ Dit project valt onder de **MIT-licentie**.
 
 ## 🖼️ Screenshots
 
-![Telefoon formaat](image.png)
-![Laptop Formaat](image-1.png)
+![Telefoon formaat](./assets/images/Telefoonformaat-website.png)
+![Laptop Formaat](./assets/images/Laptopformaat-website.png)
