@@ -3,8 +3,11 @@ main {
   flex-direction: column;
   height: 100vh;
 
-  @media (min-width: 1200px) {
-    flex-direction: row;
+  @media (min-width: 1000px) {
+    display: grid;
+    grid-template-areas:
+      "title title content content"
+      "title title footer footer ";
   }
 
   section:nth-of-type(1) {
@@ -14,6 +17,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    grid-area: title;
 
     ul {
       display: flex;
@@ -55,9 +59,9 @@ main {
   section:nth-of-type(2) {
     padding: 30px;
     background-color: var(--secundary-kleur);
+    grid-area: content;
 
-    @media (min-width: 1200px) {
-      width: 60%;
+    @media (min-width: 1000px) {
       overflow-y: auto;
     }
 
