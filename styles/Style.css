@@ -28,6 +28,10 @@ main {
         position: relative;
         max-width: 35rem;
 
+        .gif {
+          width: 70px;
+        }
+
         &:nth-of-type(1) {
           display: flex;
           justify-content: center;
@@ -35,10 +39,6 @@ main {
 
           h1 {
             font-size: 3rem;
-          }
-
-          .gif {
-            width: 70px;
           }
         }
 

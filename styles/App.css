@@ -21,6 +21,10 @@ body {
   }
 }
 
+.gif {
+  width: 70px !important;
+}
+
 a {
   color: var(--tertiary-kleur);
 }
