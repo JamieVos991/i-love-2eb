@@ -30,12 +30,25 @@ a {
 }
 
 button {
-  background: none;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  border: 1px solid white;
+  border: none;
   border-radius: 20px;
-  padding: 10px 30px;
+  border: 1px solid var(--tertiary-kleur);
+  color: var(--tertiary-kleur);
+  background: no-repeat;
+  padding: 10px 35px;
   font-size: 1rem;
   cursor: pointer;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  span {
+    height: 10px;
+    aspect-ratio: 1/1;
+    display: flex;
+    border-radius: 50%;
+    background-color: var(--tertiary-kleur);
+  }
 }
