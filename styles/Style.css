@@ -5,9 +5,7 @@ main {
 
   @media (min-width: 1000px) {
     display: grid;
-    grid-template-areas:
-      "title title content content"
-      "title title footer footer ";
+    grid-template-areas: "title title content content";
   }
 
   section:nth-of-type(1) {
@@ -60,6 +58,7 @@ main {
     padding: 30px;
     background-color: var(--secundary-kleur);
     grid-area: content;
+    position: relative;
 
     @media (min-width: 1000px) {
       overflow-y: auto;

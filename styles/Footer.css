@@ -1,17 +1,19 @@
 footer {
-  min-height: 100px;
+  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--main-kleur);
   width: 100%;
-  grid-area: footer;
+  left: 0;
+  position: absolute;
 
   ul {
     list-style: none;
 
     li {
       display: flex;
+      flex-direction: row !important;
       gap: 30px;
 
       a {
