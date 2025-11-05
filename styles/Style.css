@@ -25,11 +25,20 @@ main {
 
       li {
         list-style: none;
+        position: relative;
         max-width: 35rem;
 
         &:nth-of-type(1) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
           h1 {
             font-size: 3rem;
+          }
+
+          .gif {
+            width: 70px;
           }
         }
 
