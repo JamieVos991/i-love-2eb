@@ -94,6 +94,12 @@ main {
           border-radius: 4px;
           display: inline-block;
         }
+
+        ol {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
       }
 
       &.sprint {
