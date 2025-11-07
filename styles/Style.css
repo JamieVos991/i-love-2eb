@@ -84,7 +84,7 @@ main {
         gap: 15px;
 
         details[open] summary .arrow {
-          transform: rotate(90deg);
+          transform: rotate(270deg);
         }
 
         details {
