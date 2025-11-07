@@ -83,6 +83,10 @@ main {
         flex-direction: column;
         gap: 15px;
 
+        details[open] summary .arrow {
+          transform: rotate(90deg);
+        }
+
         details {
           background: var(--main-kleur);
 
@@ -97,6 +101,10 @@ main {
             padding: 15px;
             align-items: center;
             justify-content: space-between;
+
+            .arrow {
+              display: inline-block;
+            }
           }
 
           div {
