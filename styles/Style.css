@@ -90,6 +90,10 @@ main {
           }
         }
 
+        &[open] > summary {
+          padding: 15px;
+        }
+
         &:open > summary {
           padding: 15px;
         }
