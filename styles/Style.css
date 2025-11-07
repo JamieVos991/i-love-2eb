@@ -81,7 +81,7 @@ main {
       details {
         background: var(--main-kleur);
 
-        &:not(:open) {
+        &:not([open]) {
           height: 55px;
 
           summary {
