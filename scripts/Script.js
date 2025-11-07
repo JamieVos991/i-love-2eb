@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const details = document.querySelectorAll("details");
 
-
   knoppen.forEach((btn) => {
     btn.addEventListener("click", () => {
       const index = btn.dataset.sprint;
@@ -20,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (sprints.length > 0) {
     sprints[0].classList.add("active");
   }
-
 
   details.forEach((detail) => {
     detail.open = true;

@@ -78,35 +78,37 @@ main {
         font-size: 1.5rem;
       }
 
-      details {
-        background: var(--main-kleur);
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
 
-        summary {
-          padding: 15px;
-        }
+        details {
+          background: var(--main-kleur);
 
-        /* &[open] > summary {
-          padding: 15px;
-        }
+          &:open summary .arrow {
+            transform: rotate(270deg);
+          }
 
-        &:open > summary {
-          padding: 15px;
-        } */
+          summary {
+            list-style: none;
+            font-size: 1.05rem;
+            display: flex;
+            padding: 15px;
+            align-items: center;
+            justify-content: space-between;
+          }
 
-        summary {
-          list-style: none;
-          font-size: 1.05rem;
-        }
+          div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 0px 15px 15px 15px;
 
-        div {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-          padding: 0px 15px 15px 15px;
-
-          a {
-            width: max-content;
-            text-decoration: none;
+            a {
+              width: max-content;
+              text-decoration: none;
+            }
           }
         }
       }
