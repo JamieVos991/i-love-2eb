@@ -81,22 +81,17 @@ main {
       details {
         background: var(--main-kleur);
 
-        &:not([open]) {
-          height: 55px;
-
-          summary {
-            height: 55px;
-            padding: 15px;
-          }
+        summary {
+          padding: 15px;
         }
 
-        &[open] > summary {
+        /* &[open] > summary {
           padding: 15px;
         }
 
         &:open > summary {
           padding: 15px;
-        }
+        } */
 
         summary {
           list-style: none;
