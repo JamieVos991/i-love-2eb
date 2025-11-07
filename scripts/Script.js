@@ -1,19 +1,28 @@
-// Selecteer alle knoppen met een data-attribuut 'data-sprint'
-const knoppen = document.querySelectorAll("button[data-sprint]");
-const sprints = document.querySelectorAll(".sprint");
+document.addEventListener("DOMContentLoaded", () => {
+  const knoppen = document.querySelectorAll("button[data-sprint]");
+  const sprints = document.querySelectorAll(".sprint");
 
-knoppen.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    // Haal de waarde van het 'data-sprint' attribuut op (dit geeft de index van de sprint aan)
-    const index = btn.dataset.sprint;
+  const details = document.querySelectorAll("details");
 
-    // Verwijder bij alle sprint elementen de class 'active'
-    sprints.forEach((s) => s.classList.remove("active"));
 
-    // Voeg de class 'active' toe aan de sprint met de opgegeven index
-    sprints[index].classList.add("active");
+  knoppen.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const index = btn.dataset.sprint;
+
+      sprints.forEach((s) => s.classList.remove("active"));
+
+      if (sprints[index]) {
+        sprints[index].classList.add("active");
+      }
+    });
+  });
+
+  if (sprints.length > 0) {
+    sprints[0].classList.add("active");
+  }
+
+
+  details.forEach((detail) => {
+    detail.open = true;
   });
 });
-
-// Zorg ervoor dat standaard de eerste sprint actief is bij het laden van de pagina
-sprints[0].classList.add("active");
