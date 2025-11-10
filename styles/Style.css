@@ -11,10 +11,9 @@ main {
   section:nth-of-type(1) {
     display: flex;
     text-align: center;
-    min-height: 530px;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 40px 50px;
     grid-area: title;
 
     ul {
@@ -115,7 +114,6 @@ main {
             padding: 15px;
 
             a {
-              width: max-content;
               text-decoration: none;
             }
           }

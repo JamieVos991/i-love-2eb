@@ -21,6 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   details.forEach((detail) => {
-    detail.open = true;
+    detail.open = false;
   });
 });
